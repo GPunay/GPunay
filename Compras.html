@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="shortcut icon" href="img/Icono Designers Unity.png">
+
+    <title>Compras Designers Unity</title>
+</head>
+
+<body style="background-image: url(img/Fondo\ designers\ unity.jpg);">
+    <header class="container-fluid bg-dark position-sticky top-0">
+        <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-white" href="index.html" type="button" role="tab">Inicio</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active text-white" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Productos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link text-white" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+            </li>
+        </ul>
+    </header>
+
+      <div class="alert container position-sticky top-0 alert-info hide" role="alert">
+        Producto añadido al carrito!
+      </div>
+      <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+        Producto removido con éxito!
+      </div>
+
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <h1 class="m-5 text-white text-center"><strong>Productos</strong></h1>
+
+            <div class="row row-cols-sm-1 row row-cols-md-2 row row-cols-lg-3 row row-cols-xl-4">
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Mascota Jurásica.jpg" class="card-img-top" alt="Mi Mascota Jurásica">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Mi Mascota Jurásica</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q30</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/El fin de los dinosaurios.jpg" height="190px" class="card-img-top" alt="El fin de los dinosaurios">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>El fin de los dinosaurios</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q40</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Personajes de juegos.jpg" height="190px" class="card-img-top" alt="Personajes de videojuegos">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Personajes de videojuegos</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q50</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Sector 9 en Latinoamérica.jpg" height="190px" class="card-img-top" alt="Sector 9 latinoamericano">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Sector 9 latinoamericano</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q60</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Mujer ventana.jpg" height="190px" class="card-img-top" alt="Mirando a las estrellas">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Mirando a las estrellas</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q150</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Bailando en la oscuridad.jpg" height="190px" class="card-img-top" alt="Bailando en la oscuridad">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Bailando en la oscuridad</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q180</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Un hermoso atardecer.jpg" height="190px" class="card-img-top" alt="Un hermoso atardecer">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Un hermoso atardecer</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q190</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Niña en primavera.jpg" height="190px" class="card-img-top" alt="Niña en primavera">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Niña en primavera</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q240</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Castillo Blender.jpg" height="190px" class="card-img-top" alt="Castillo Medieval">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Castillo Medieval</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q150</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Parque blender.jpg" height="190px" class="card-img-top" alt="Parque al anochecer">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Parque al anochecer</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q140</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Trazo de dibujo.jpg" height="190px" class="card-img-top" alt="¡Anímame!">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>¡Anímame!</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q320</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Niña en otoño.jpg" height="190px" class="card-img-top" alt="Soñando Despierta">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Soñando Despierta</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q280</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Finamente Bárbaro.jpg" height="190px" class="card-img-top" alt="Finamente Bárbaro">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Finamente Bárbaro</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q250</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow md-1 bg-dark rounded" style="width: 18rem;">
+                        <img src="img/Rexy y Pixxy.jpg" height="190px" class="card-img-top" alt="Rexy y Pixxy">
+                        <div class="card-body">
+                          <h5 class="card-title pt-2 text-center text-white"><strong>Rexy y Pixxy</strong></h5>
+                          <p class="card-text text-center text-white-50 description"><strong>Precio: </strong><span class="precio">Q500</span></p>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary button ">Añadir a carrito</button>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <br>
+            <table class="table table-dark table-striped">
+                <thead>
+                  <tr class="text-primary">
+                    <th scope="col">Productos</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody">
+                  
+
+
+                </tbody>
+              </table>
+              <br><br>
+              <div class="row mx-4">
+                  <div class="col">
+                      <h3 class="itemCartTotal text-white">Total: Q0</h3>
+                  </div>
+                  <div class="col d-flex justify-content-end">
+                      <button class="btn btn-success">Comprar</button>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+<footer class="bg-dark p-3  mt-5">
+    <h2 class="text-center m-0 text-white">Designers Unity</h2>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="js/Script-compras.js"></script>
+
+</body>
+
+
+
+</html>
